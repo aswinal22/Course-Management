@@ -1,0 +1,33 @@
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .course {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .course:hover {
+    transform: scale(1.05);
+  }
+  
+  .course img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .course h3 {
+    margin-top: 10px;
+  }
+  
+  .course p {
+    margin-bottom: 10px;
+  }
+  
